@@ -2,6 +2,13 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
+  <repositories>
+    <!-- Pentaho repository. -->
+    <repository>
+	  <id>pentaho-repo</id>
+	  <url>http://nexus.pentaho.org/content/groups/omni/</url>
+	</repository>
+  </repositories>
   <parent>
     <groupId>org.pentaho</groupId>
     <artifactId>pentaho-ce-jar-parent-pom</artifactId>
